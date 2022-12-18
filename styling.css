@@ -1,0 +1,15 @@
+.container{
+    max-width: 400px;
+    height: 250px;
+    margin-top: 150px;
+    /* background-color: beige; */
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.container > form > input {
+    width: 250px;
+    margin-top: 50px;
+    display: inline-block;
+    /* margin-bottom: 5px; */
+}
