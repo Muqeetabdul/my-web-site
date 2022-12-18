@@ -14,24 +14,15 @@
 
     <div class="container">
         <form>
-            <input type="text" class="form-control" placeholder="Enter Value 1..." id="value1">
-            <input type="text" class="form-control" placeholder="Enter Value 2..." id="value2">
+            <input type="text" class="form-control" placeholder="Enter Value 1..." id="value">
 
-            <button type="button" class="btn btn-primary btn-md" onclick="multiply()"  id="submit">Multiply!</button>
+            <button type="button" class="btn btn-primary btn-md">Palindrome!</button>
             
         </form>
 
-        <p id="ans"></p>
+        <p class="info-txt"></p>
     </div>
 
-    <script>
-
-        function multiply(){
-            var val1 = document.getElementById('value1').value;
-            var val2 = document.getElementById('value2').value;
-            var result = val1 * val2;
-            document.getElementById('ans').innerHTML = result;
-        }
-    </script>
+    <script  src="test.js"></script>
 </body>
 </html>
